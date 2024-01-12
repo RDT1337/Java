@@ -13,13 +13,13 @@
       alert(this.producent + ' ' + this.materiał+ ' ' + this.pojemność);
       };
 
-      var waza1 = new pociag("firma", "porcelana", "2L"); 
-      var waza2 = new pociag('firma2', 'glina', '3L');
+      var waza1 = new waza("firma", "porcelana", "2L"); 
+      var waza2 = new waza('firma2', 'glina', '3L');
       waza1.wypisz();
       waza.wypisz();
       document.write("dostęp do właściwości"+"<br>");
-      document.write("Waza jeden"+" "+waza1.producent+" "+pociag1.materiał+" "+pociag1.pojemność+"<br>");
-      document.write("Pociag drugi"+" "+pociag2.producent+" "+pociag2.materiał+" "+pociag2.pojemność);
+      document.write("Waza jeden"+" "+waza1.producent+" "+waza1.materiał+" "+waza1.pojemność+"<br>");
+      document.write("Waza dwa"+" "+waza2.producent+" "+waza2.materiał+" "+waza2.pojemność);
    </script>
 </head>
 <body>
